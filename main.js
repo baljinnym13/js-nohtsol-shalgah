@@ -162,8 +162,8 @@ switch (mount) {
     uliral = "autumn";
     break;
   }
-  default { 
-    console.log("oldsongve")
+  default: {
+    console.log("oldsongve");
   }
 }
 console.log("tanii oruulsan tool:", mount);
