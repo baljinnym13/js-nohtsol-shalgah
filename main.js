@@ -123,8 +123,13 @@ if (n % 2 === 0) {
 let a = 12,
   b = 45,
   c = 10;
-if (a < b < c) {
+
+if (a <= b <= c) {
   console.log("hamgiin ih too", c);
+} else if (c <= a <= b) {
+  console.log("hamgiin ih too", b);
+} else if (b <= c <= a) {
+  console.log("hamgiin ih too", a);
 }
 // bodlogo 4
 
@@ -163,8 +168,23 @@ switch (mount) {
     break;
   }
   default: {
-    console.log("oldsongve");
+    uliral = "oldsongve";
   }
 }
-console.log("tanii oruulsan tool:", mount);
-console.log("tanii oruulsan toond tohiroh utga:", uliral);
+console.log("tanii oruulsan sar:", mount);
+console.log("tanii oruulsan sard tohiroh uiliral:", uliral);
+// bodlogo 6
+let x1 = 85;
+let x2 = 75;
+let x3 = 96;
+let x4 = 69;
+let x5 = x1 + x2 + x3 + x4;
+if (x1 >= 80) {
+  console.log("80-s ih toonii niilber", x5);
+} else if (x2 >= 80) {
+  console.log("80-s ih toonii niilber", x5);
+} else if (x3 >= 80) {
+  console.log("80-s ih toonii niilber", x5);
+} else if (x4 >= 80) {
+  console.log("80-s ih toonii niilber", x5);
+}
