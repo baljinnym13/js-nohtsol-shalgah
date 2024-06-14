@@ -80,3 +80,11 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
 }
 console.log("ih:", max);
 console.log("ih:", min);
+let t = "baljinnym";
+let sum6 = 13;
+for (let i = 0; ~i < t.length; i++) {
+  sum6 = sum6 + t[i];
+
+  //   console.log(t[i]);
+}
+console.log(sum6);
